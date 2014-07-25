@@ -31,22 +31,31 @@ namespace PowerShellExecution {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Input control.
+        /// PS1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Input;
+        protected global::System.Web.UI.WebControls.Button PS1;
         
         /// <summary>
-        /// ExecuteCode control.
+        /// PS2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ExecuteCode;
+        protected global::System.Web.UI.WebControls.Button PS2;
+        
+        /// <summary>
+        /// PS3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button PS3;
         
         /// <summary>
         /// ResultBox control.

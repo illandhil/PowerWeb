@@ -11,20 +11,38 @@
         <table>
             <tr><td>&nbsp;</td><td><h1 align="left">PowerShell Command Harness</h1></td></tr>
             <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
-            <tr><td>&nbsp;</td><td>PowerShell Command</td></tr>
+            <tr><td>&nbsp;</td><td>PowerShell Commands</td></tr>
             <tr><td>
                 <br />
                 </td><td>
-                <asp:TextBox ID="Input" runat="server" TextMode="MultiLine" Width="433px" Height="73px" ></asp:TextBox>
-            </td></tr>
-            <tr><td>
+                Powershell Script 1
+            </td><td>
                 &nbsp;</td><td>
-                <asp:Button ID="ExecuteCode" runat="server" Text="Execute" Width="200" onclick="ExecuteCode_Click" />
+                <asp:Button ID="PS1" runat="server" Text="Execute" Width="100" onclick="ExecutePS1_Click" />
             </td></tr>
+
+            <tr><td>
+                <br />
+                </td><td>
+                Powershell Script 2
+            </td><td>
+                &nbsp;</td><td>
+                <asp:Button ID="PS2" runat="server" Text="Execute" Width="100" onclick="ExecutePS2_Click" />
+            </td></tr>
+
+            <tr><td>
+                <br />
+                </td><td>
+                Powershell Script 3
+            </td><td>
+                &nbsp;</td><td>
+                <asp:Button ID="PS3" runat="server" Text="Execute" Width="100" onclick="ExecutePS3_Click" />
+            </td></tr>
+
                 <tr><td>&nbsp;</td><td><h3>Result</h3></td></tr>
                 <tr><td>
                     &nbsp;</td><td>
-                    <asp:TextBox ID="ResultBox" TextMode="MultiLine" Width="700" Height="200" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="ResultBox" TextMode="MultiLine" Width="700" Height="300" runat="server"></asp:TextBox>
                 </td></tr>
         </table>
     </div>
